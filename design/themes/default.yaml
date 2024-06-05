@@ -1,0 +1,62 @@
+App:
+  background: '#1e1e1e'
+  foreground: '#ECF2FF'
+  border: '#CCCCCC'
+Navbar:
+  background: '#1E1E1E'
+  foreground: '#FDFDFD'
+Entry:
+  background: '#ECF2FF'
+  foreground: '#1e1e1e'
+  placeholder: '#999999'
+  border: '#CCCCCC'
+  outline: '#1ac6ff'
+Button:
+  cloud:
+    background: '#1e1e1e'
+    foreground: '#ECF2FF'
+    on_hover: '#e0e0e0'
+    disabled_bg: '#eeeeee'
+    disabled_fg: '#9e9e9e'
+  info:
+    background: '#33b5e5'
+    foreground: '#fafafa'
+    on_hover: '#0099CC'
+    disabled_bg: '#64b5f6'
+    disabled_fg: '#e0e0e0'
+  primary:
+    background: '#4285F4'
+    foreground: '#fafafa'
+    on_hover: '#0d47a1'
+    disabled_bg: '#82b1ff'
+    disabled_fg: '#e0e0e0'
+  danger:
+    background: '#ff4444'
+    foreground: '#fafafa'
+    on_hover: '#CC0000'
+    disabled_bg: '#ff8a80'
+    disabled_fg: '#e0e0e0'
+  warning:
+    background: '#ffbb33'
+    foreground: '#fafafa'
+    on_hover: '#FF8800'
+    disabled_bg: '#f0f4c3'
+    disabled_fg: '#e0e0e0'
+  success:
+    background: '#00C851'
+    foreground: '#fafafa'
+    on_hover: '#007E33'
+    disabled_bg: '#a5d6a7'
+    disabled_fg: '#e0e0e0'
+  elegant:
+    background: '#2E2E2E'
+    foreground: '#fafafa'
+    on_hover: '#212121'
+    disabled_bg: '#757575'
+    disabled_fg: '#e0e0e0'
+  default:
+    background: '#1e1e1e'
+    foreground: '#ECF2FF'
+    on_hover: '#212121'
+    disabled_bg: '#80cbc4'
+    disabled_fg: '#e0e0e0'
