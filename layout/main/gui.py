@@ -102,7 +102,7 @@ def submit_patient():
         if gender1 == "Select":
             messagebox.showinfo('ALERT!', 'Please provide Gender')
         else:
-            exe1 = f'INSERT INTO gait_db.tblpatient(patientId, doctorId, patientName, patientAge, patientGender, patientWeight, patientHeight, patientMedic, CreationDate, UpdationDate) VALUES (NULL, "{docid}", "{name1}", "{age1}", "{gender1}", "{weight1}", "{height1}", "{diagnose1}", NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)'
+            exe1 = f'INSERT INTO gait_db.tblpatient(doctorId, patientName, patientAge, patientGender, patientWeight, patientHeight, patientMedic, CreationDate, UpdationDate) VALUES ("{docid}", "{name1}", "{age1}", "{gender1}", "{weight1}", "{height1}", "{diagnose1}", NULL, NULL)'
             try:
                 mycon = sql.connect(host='localhost', user='root',
                                     passwd='', database='gait_db')
